@@ -36,4 +36,7 @@ export class AppComponent implements OnInit {
     }
 
   }
+  RowDelete(Index){
+    this.RowData.splice(Index, 1);
+  }
 }
